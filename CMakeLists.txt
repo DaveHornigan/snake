@@ -3,4 +3,4 @@ project(snake_game)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(snake_game main.cpp)
+add_executable(snake_game main.cpp inc/Map.h inc/Snake.h inc/Fruit.h main.h)
